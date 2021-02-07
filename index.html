@@ -1,47 +1,51 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css" />
   <title>Home page</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><h1>Home Page</h1></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/reviews.html">Reviews</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/loreMain.html">Lore Entries</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+      <a class="mx-auto" href="#">
+          <img src="images/JTVFLogo.png" class="rounded-circle logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  </div>
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+        <ul class="navbar-nav mr-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/campaign.html">Campaign Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/sessions.html">Session Records</a>
+          </li>
+        </ul>
     </div>
   </nav>
 
   <div class="hello">
   <h2>Hello!</h2>
-    <p> This is a home page that introduces <strong>the viewer</strong> (you) to <strong>
-      the photographer</strong> (me)!</p>
-    <p> I call myself a photographer, but that really is not true. I know very little 
-      about taking photos and the techniques used for taking good ones, <em>though that does
-      not stop me</em> from sometimes taking a picture of scenery that I like or that provides 
-      me with ideas for writing. I always take photos with my phone, so I did some digging 
-      through it for this website. I pulled out a selection of some of the 
-      photos I have taken for your enjoyment! Just click on the <strong>Portfolio</strong> tab, 
-      and leave a review on the <strong>Review</strong> tab! </p>
+    <p> This is a website for my D&D 5E campaign, and for the world that it takes place in.</p>
+    <p> Here you can find the introduction for the campaign, recaps of sessions that have happened, 
+      and lore entries that I have made. </p>
   </div>
 
   <hr>
